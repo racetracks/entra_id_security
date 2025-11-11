@@ -1,5 +1,4 @@
-Connect-MgGraph -Scopes "User.ReadWrite.All", "Directory.ReadWrite.All", 
-"SignInActivity.Read.All" 
+Connect-MgGraph -Scopes "User.ReadWrite.All", "Directory.ReadWrite.All", "SignInActivity.Read.All" 
 $inactivityThreshold = 90
 
 $currentDate = Get-Date 
